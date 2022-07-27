@@ -42,7 +42,8 @@ body {
   border: 2px dashed #6990f2;
   border-radius: 5px;
   -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
+  -moz-border-radius: 15px;
+
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
