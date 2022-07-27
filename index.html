@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome link v-5.9-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+
+    <!-- text font link(poppins)---------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css link---------- -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>uploadFile</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>File Uploader Javascript</header>
+
+      <form action="#">
+        <i class="fas fa-cloud-upload-alt"></i>
+        <p>Browse File to Upload</p>
+      </form>
+
+      <section class="progress-area">
+        <li class="row">
+          <i class="fas fa-file-alt"> </i>
+          <div class="content">
+            <div class="details">
+              <span class="name">image_01.png • Uploading</span>
+              <span class="precent">50%</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress"></div>
+            </div>
+          </div>
+        </li>
+      </section>
+
+      <section class="uploaded-area">
+        <li class="row">
+          <div class="content">
+            <i class="fas fa-file-alt"> </i>
+            <div class="details">
+              <span class="name">image_01.png • Uploading</span>
+              <span class="size">70 KB</span>
+            </div>
+          </div>
+          <i class="fas fa-check"></i>
+        </li>
+      </section>
+    </div>
+  </body>
+</html>
